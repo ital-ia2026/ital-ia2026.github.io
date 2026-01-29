@@ -1,3 +1,3 @@
-# Ital-IA 2025
+# Ital-IA 2026
 
-Website for the Ital-IA 2025 workshop.
+Website for the Ital-IA 2026 workshop.
