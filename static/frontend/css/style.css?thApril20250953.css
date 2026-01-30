@@ -5,8 +5,7 @@
     Author URL: https://bootstrapmade.com
 */
 /* ==== Google font ==== */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
 /* === fontawesome === */
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
@@ -16,35 +15,37 @@
   General
   ========================================================================== */
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.6em;
-    color: #656565;
+    font-family: 'Inter', 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #23303d;
     overflow-x: hidden;
+    background: #f5f8fc;
 }
 
 a {
-    color: #DF5203;
-    font-weight: 400;
+    color: #0e7ad1;
+    font-weight: 500;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
+    color: #0a5da0;
 }
 
 p {
-    color: #656565;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 300;
+    color: #3a4957;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    line-height: 1.1em;
-    color: #333;
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.15em;
+    color: #0b2540;
     margin-bottom: 10px;
     margin-top: 25px;
 }
@@ -57,10 +58,16 @@ h5 {
   --- Header & menu ----
 =========================== */
 .main-menu {
-    background-color: #f7f7f7;
-    border-bottom: 5px #9a323d solid;
-    outline: 5px solid rgb(6, 63, 116);
+    background: #ffffff;
+    border-bottom: 3px solid #e3ecf6;
+    box-shadow: 0 4px 20px rgba(9, 91, 170, 0.06);
     width: 100%;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 20;
 }
 
 
@@ -93,19 +100,20 @@ span {
 
 .nav-pills {
     float: right;
-    font-weight: 800;
-    color: #fff;
+    font-weight: 600;
+    color: #0b2540;
 }
 
 ul.nav-pills {
     margin-top: 10px;
-    color: #fff;
+    color: #0b2540;
     padding: 5px;
 }
 
 .nav-pills > li > a {
-    color: #428bca;
-    border-radius: 0px;
+    color: #0e7ad1;
+    border-radius: 8px;
+    padding: 10px 14px;
 }
 
 .nav-pills > li + li {
@@ -124,8 +132,9 @@ button.navbar-toggle {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-    color: #fff;
-    background-color: #428bca;
+    color: #ffffff;
+    background: linear-gradient(120deg, #0e7ad1, #58c4f5);
+    box-shadow: 0 8px 20px rgba(14, 122, 209, 0.25);
 }
 
 
@@ -137,10 +146,15 @@ button.navbar-toggle {
 .slider-home {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url('../img/banner.png');
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: radial-gradient(circle at 20% 20%, rgba(88,196,245,0.35), transparent 35%), radial-gradient(circle at 80% 10%, rgba(14,122,209,0.25), transparent 40%), #0b1f33;
+    background-size: 200% 200%;
+    animation: heroShift 16s ease-in-out infinite;
+}
+
+@keyframes heroShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .slider-home h1 {
@@ -185,10 +199,11 @@ button.navbar-toggle {
 
 .thumbnail {
     display: block;
-    padding: 4px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 1px;
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e2eaf3;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(11,63,104,0.08);
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -197,6 +212,54 @@ button.navbar-toggle {
 .thumbnail-person {
     display: block;
     padding: 4px;
+}
+
+/* Cards & tables */
+table.table {
+    background: #ffffff;
+    border: 1px solid #e4eaf2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table.table th, table.table td {
+    border-color: #e9eff7 !important;
+}
+table.table th a {
+    color: #0b2540;
+}
+
+/* Utility highlights */
+b, strong {
+    color: #0e7ad1;
+    font-weight: 700;
+}
+em {
+    color: #0a5da0;
+}
+
+.highlight-box {
+    background: linear-gradient(120deg, rgba(14,122,209,0.1), rgba(88,196,245,0.15));
+    border: 1px solid #cde8fb;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 6px 16px rgba(14,122,209,0.1);
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: linear-gradient(120deg, #0e7ad1, #58c4f5);
+    color: #ffffff !important;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    box-shadow: 0 10px 24px rgba(14, 122, 209, 0.25);
+    border: none;
+}
+.btn-cta:hover {
+    background: linear-gradient(120deg, #0b5da0, #3fb2ed);
+    box-shadow: 0 12px 28px rgba(14, 122, 209, 0.35);
+    color: #ffffff !important;
 }
 
 
