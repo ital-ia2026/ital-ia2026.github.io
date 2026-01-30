@@ -149,12 +149,45 @@ button.navbar-toggle {
     background: radial-gradient(circle at 20% 20%, rgba(88,196,245,0.35), transparent 35%), radial-gradient(circle at 80% 10%, rgba(14,122,209,0.25), transparent 40%), #0b1f33;
     background-size: 200% 200%;
     animation: heroShift 16s ease-in-out infinite;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 @keyframes heroShift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+.slider-home .col-md-6,
+.slider-home .col-sm-10,
+.slider-home .col-xs-12 {
+    float: none;
+    width: 100%;
+    max-width: 825px;
+    margin: 0 auto;
+    display: block;
+}
+
+.slider-home img {
+    display: block;
+    max-width: 100%;
+    width: min(100%, 825px);
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.slider-home .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .slider-home {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
 }
 
 .slider-home h1 {
@@ -260,6 +293,11 @@ em {
     background: linear-gradient(120deg, #0b5da0, #3fb2ed);
     box-shadow: 0 12px 28px rgba(14, 122, 209, 0.35);
     color: #ffffff !important;
+}
+
+.lang-switch a {
+    padding: 8px 14px !important;
+    border-radius: 999px;
 }
 
 
