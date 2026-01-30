@@ -300,6 +300,15 @@ em {
     border-radius: 999px;
 }
 
+.lang-switch img {
+    height: 12px;
+    width: auto;
+    margin-right: 6px;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
 
 /*===========================
   Portfolio
