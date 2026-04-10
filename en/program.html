@@ -18,6 +18,59 @@
     <link rel="stylesheet" type="text/css" href="../static/frontend/css/isotope.css" media="screen"/>
     <link rel="stylesheet" href="../static/frontend/css/style.css%3FthApril20250953.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <style>
+        .program-intro { margin-bottom: 30px; }
+        .program-day {
+            border: 1px solid #e5e5e5;
+            border-left: 4px solid #d9232d;
+            padding: 20px;
+            margin-bottom: 25px;
+            background: #fafafa;
+        }
+        .program-day h3 { margin-top: 0; }
+        .program-link { font-weight: 600; }
+        .speaker-card,
+        .feature-card {
+            border: 1px solid #e5e5e5;
+            padding: 20px;
+            margin-bottom: 25px;
+            background: #fff;
+        }
+        .speaker-photo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #d9d9d9, #f3f3f3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .speaker-photo-img {
+            width: 120px;
+            height: 120px;
+            margin: 10px auto 15px;
+            border-radius: 12px;
+            object-fit: cover;
+            display: block;
+            border: 1px solid #e5e5e5;
+        }
+        .speaker-card h4,
+        .feature-card h4 { margin-top: 0; }
+        .speaker-role {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .section-title {
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+    </style>
 
     <meta property='og:title' content="Ital-IA: National Conference on Artificial Intelligence" />
     <meta property='og:description' content="Programme" />
@@ -68,7 +121,120 @@
                 <div class="col-md-9 col-md-push-3">
         
                     <h2>Programme</h2>
-                    <p>The detailed programme of Ital-IA 2026 is being defined. It will be published here as soon as available.</p>
+                    <div class="program-intro">
+                        <p>The Ital-IA 2026 programme spans two days. <strong>Thursday, 18 June 2026</strong> will be dedicated to the thematic <a class="program-link" href="workshop.html">workshops</a>, while <strong>Friday, 19 June 2026</strong> will host the <a class="program-link" href="plenary.html">plenary session</a> in the morning and the <a class="program-link" href="workshop/doctoral-consortium.html">Doctoral Consortium</a> in the afternoon.</p>
+                        <p>The detailed timetable will be published soon. The structure currently planned is outlined below.</p>
+                    </div>
+
+                    <div class="program-day">
+                        <h3>Thursday, 18 June 2026</h3>
+                        <p><strong>Ital-IA 2026 Workshops</strong></p>
+                        <p>The entire Thursday programme will be devoted to the conference workshops, with parallel sessions focused on the main research and application areas of artificial intelligence.</p>
+                        <p><a class="program-link" href="workshop.html">Go to the workshops page</a></p>
+                    </div>
+
+                    <div class="program-day">
+                        <h3>Friday, 19 June 2026</h3>
+                        <p><strong>Morning:</strong> plenary session</p>
+                        <p><strong>Afternoon:</strong> Doctoral Consortium</p>
+                        <p>The plenary session will feature a round table, followed by a workshops summary coordinated by Carlo Sansone. In the afternoon, the Doctoral Consortium will include presentations of doctoral work and a thematic lecture on rapid LLM application development for a medical use case.</p>
+                    </div>
+
+                    <h3 class="section-title">Plenary Session</h3>
+                    <p>The morning plenary session will revolve around a round table involving representatives from academia, scientific societies, and industry.</p>
+
+                    <div class="speaker-card">
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <img src="../static/frontend/img/speakers/cosma-belli.jpg" alt="Cosma Belli" class="speaker-photo-img">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Cosma Belli</h4>
+                                <p class="speaker-role">Southern &amp; Western Europe Director | Country Manager, Italy | Quantum Computing for HPC &amp; AI | IQM Quantum Computers</p>
+                                <p>Short bio coming soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="speaker-card">
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <img src="../static/frontend/img/speakers/andrea-orlandini.jpg" alt="Andrea Orlandini" class="speaker-photo-img">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Andrea Orlandini</h4>
+                                <p class="speaker-role">President of AIxIA</p>
+                                <p>Short bio coming soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="speaker-card">
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <img src="../static/frontend/img/speakers/sebastiano-battiato.jpg" alt="Sebastiano Battiato" class="speaker-photo-img">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Sebastiano Battiato</h4>
+                                <p class="speaker-role">CVPL Delegate for IAPR</p>
+                                <p>Short bio coming soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="speaker-card">
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <img src="../static/frontend/img/speakers/domenico-convertino.jpg" alt="Domenico Convertino" class="speaker-photo-img">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Domenico Convertino</h4>
+                                <p class="speaker-role">Senior Vice President at HCLTech</p>
+                                <p>Short bio coming soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="speaker-card">
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <img src="../static/frontend/img/speakers/giuseppe-fiameni.jpg" alt="Giuseppe Fiameni" class="speaker-photo-img">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Giuseppe Fiameni</h4>
+                                <p class="speaker-role">NVIDIA AI Technology Center EMEA</p>
+                                <p>Short bio coming soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>Workshops Summary</h4>
+                        <p>The plenary session will also include a workshops summary coordinated by <strong>Carlo Sansone</strong>, Director of the CINI-AIIS National Laboratory.</p>
+                    </div>
+
+                    <h3 class="section-title">Doctoral Consortium</h3>
+                    <p>The afternoon Doctoral Consortium will include presentations of doctoral research and an application-oriented lecture for the research community.</p>
+
+                    <div class="feature-card">
+                        <h4>NVIDIA workshop on Rapid Application Development with LLMs and a Medical Use-case</h4>
+                        <p>Recent advancements in Large Language Models (LLMs) are transforming many sectors including Healthcare and Medicine. This hands-on workshop offered by NVIDIA sponsored curriculum is designed to help developers quickly build and deploy LLM-powered applications by leveraging the vast open-source ecosystem. Participants will explore the full development lifecycle, from understanding transformer architectures and tokenization to implementing sophisticated agentic workflows. The workshop will finish with a medical expert system use-case demonstration.</p>
+                        <p>The session aims to provide practical experience for developers with the Hugging Face Transformers API for tasks such as semantic analysis, zero-shot classification, and question-answering. Beyond text, attendees will delve into multimodal architectures, including CLIP and diffusion models, to integrate images and audio into their AI workflows. Finally, the workshop covers advanced orchestration using LangChain and LangGraph to build environment-aware agents capable of executing complex, real-world tasks.</p>
+                    </div>
+
+                    <div class="speaker-card">
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <img src="../static/frontend/img/speakers/eyup-cinar.jpg" alt="Eyup Cinar" class="speaker-photo-img">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Eyup Cinar</h4>
+                                <p class="speaker-role">Eskisehir Osmangazi University and NVIDIA University Ambassador</p>
+                                <p><strong>Biography:</strong> Dr. Eyup Cinar is an Associate Professor in the Department of Computer Engineering at Eskişehir Osmangazi University (ESOGÜ), Türkiye. He earned his PhD in Microsystems Engineering from Rochester Institute of Technology (RIT), USA. With significant industry experience in the United States, he served as a Senior Engineer at GLOBALFOUNDRIES and later as a Senior Data Scientist at ASML-HMI in Silicon Valley.</p>
+                                <p>Dr. Cinar is an NVIDIA University Ambassador and a certified instructor for the NVIDIA Deep Learning Institute (DLI), delivering workshops and certifications in deep learning and AI. He is also a PyTorch Ambassador and affiliated with nonprofit academic organizations for disseminating PyTorch. His research interests center on AI-based methods, including deep learning, machine learning, and data science, applied to intelligent systems.</p>
+                            </div>
+                        </div>
+                    </div>
         
                 </div>
             </div>
