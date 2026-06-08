@@ -17,6 +17,7 @@
           media="screen"/>
     <link rel="stylesheet" type="text/css" href="../static/frontend/css/isotope.css" media="screen"/>
     <link rel="stylesheet" href="../static/frontend/css/style.css%3FthApril20250953.css">
+    <link rel="stylesheet" href="../static/frontend/css/program-schedule.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <style>
         .program-intro { margin-bottom: 30px; }
@@ -122,22 +123,66 @@
         
                     <h2>Programme</h2>
                     <div class="program-intro">
-                        <p>The Ital-IA 2026 programme spans two days. <strong>Thursday, 18 June 2026</strong> will be dedicated to the thematic <a class="program-link" href="workshop.html">workshops</a>, while <strong>Friday, 19 June 2026</strong> will host the <a class="program-link" href="plenary.html">plenary session</a> in the morning and the <a class="program-link" href="workshop/doctoral-consortium.html">Doctoral Consortium</a> in the afternoon.</p>
-                        <p>The detailed timetable will be published soon. The structure currently planned is outlined below.</p>
+                        <p>The programme at a glance shows the distribution of the main slots across the two days. The tables below indicate where the main sessions take place; detailed workshop programmes are available from the buttons below the tables.</p>
                     </div>
 
-                    <div class="program-day">
-                        <h3>Thursday, 18 June 2026</h3>
-                        <p><strong>Ital-IA 2026 Workshops</strong></p>
-                        <p>The entire Thursday programme will be devoted to the conference workshops, with parallel sessions focused on the main research and application areas of artificial intelligence.</p>
-                        <p><a class="program-link" href="workshop.html">Go to the workshops page</a></p>
+                    <div class="program-overview">
+                        <h3>Programme at a Glance</h3>
+                        <h4>Thursday, 18 June 2026</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered program-overview-table">
+                                <thead><tr><th>Time</th><th>Room A</th><th>Room B</th><th>Room C</th></tr></thead>
+                                <tbody>
+                                    <tr><td class="schedule-time">08:00-09:00</td><td class="slot-registration" colspan="3"><span class="program-slot">Registration</span><span class="program-slot-note">stand available in the CuBo building corridor</span></td></tr>
+                                    <tr><td class="schedule-time">09:00-10:30</td><td class="slot-medicine merged-slot"><span class="program-slot"><a href="workshop/ai-per-la-medicina-e-la-salute.html">AI for Medicine and Health</a></span></td><td class="slot-generative merged-slot"><span class="program-slot"><a href="workshop/generative-agentic-ai.html">Generative &amp; Agentic AI</a></span></td><td class="slot-sustainability merged-slot"><span class="program-slot"><a href="workshop/ai-per-la-sostenibilita.html">AI for Sustainability</a></span></td></tr>
+                                    <tr class="schedule-break"><td class="schedule-time">10:30-11:00</td><td colspan="3">Coffee Break</td></tr>
+                                    <tr><td class="schedule-time">11:00-11:40</td><td class="slot-medicine merged-slot" rowspan="2"><span class="program-slot"><a href="workshop/ai-per-la-medicina-e-la-salute.html">AI for Medicine and Health</a></span></td><td class="slot-generative merged-slot" rowspan="2"><span class="program-slot"><a href="workshop/generative-agentic-ai.html">Generative &amp; Agentic AI</a></span></td><td class="slot-sustainability merged-slot"><span class="program-slot"><a href="workshop/ai-per-la-sostenibilita.html">AI for Sustainability</a></span></td></tr>
+                                    <tr><td class="schedule-time">11:40-13:10</td><td class="slot-cybersecurity merged-slot"><span class="program-slot"><a href="workshop/ai-per-la-cybersecurity.html">AI for Cybersecurity</a></span></td></tr>
+                                    <tr class="schedule-break"><td class="schedule-time">13:10-14:30</td><td colspan="3">Lunch</td></tr>
+                                    <tr><td class="schedule-time">14:30-14:50</td><td class="slot-medicine merged-slot"><span class="program-slot"><a href="workshop/ai-per-la-medicina-e-la-salute.html">AI for Medicine and Health</a></span></td><td class="slot-responsible merged-slot" rowspan="3"><span class="program-slot"><a href="workshop/ai-responsabile-e-affidabile.html">Responsible and Trustworthy AI</a></span></td><td class="slot-public-admin merged-slot" rowspan="2"><span class="program-slot"><a href="workshop/ai-per-la-pubblica-amministrazione.html">AI for Public Administration</a></span></td></tr>
+                                    <tr><td class="schedule-time">14:50-16:10</td><td class="slot-industry merged-slot" rowspan="2"><span class="program-slot"><a href="workshop/ai-per-l-industria.html">AI for Industry</a></span></td></tr>
+                                    <tr><td class="schedule-time">16:10-16:30</td><td class="slot-empty">-</td></tr>
+                                    <tr class="schedule-break"><td class="schedule-time">16:30-17:00</td><td colspan="3">Coffee Break</td></tr>
+                                    <tr><td class="schedule-time">17:00-17:30</td><td class="slot-industry merged-slot" rowspan="2"><span class="program-slot"><a href="workshop/ai-per-l-industria.html">AI for Industry</a></span></td><td class="slot-responsible merged-slot"><span class="program-slot"><a href="workshop/ai-responsabile-e-affidabile.html">Responsible and Trustworthy AI</a></span></td><td class="slot-disinformation merged-slot" rowspan="3"><span class="program-slot"><a href="workshop/ai-e-disinformazione.html">AI and Disinformation</a></span></td></tr>
+                                    <tr><td class="schedule-time">17:30-17:40</td><td class="slot-robotics merged-slot" rowspan="3"><span class="program-slot"><a href="workshop/ai-per-la-robotica.html">AI for Robotics</a></span></td></tr>
+                                    <tr><td class="schedule-time">17:40-18:10</td><td class="slot-empty">-</td></tr>
+                                    <tr><td class="schedule-time">18:10-18:20</td><td class="slot-empty">-</td><td class="slot-empty">-</td></tr>
+                                    <tr><td class="schedule-time">19:00</td><td class="slot-social" colspan="3"><span class="program-slot">Social Event</span></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h4>Friday, 19 June 2026</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered program-overview-table">
+                                <thead><tr><th>Time</th><th>Aula Magna CUBO</th><th>Room B</th></tr></thead>
+                                <tbody>
+                                    <tr><td class="schedule-time">09:30-10:00</td><td class="slot-plenary merged-slot"><span class="program-slot">Opening</span></td><td class="slot-empty">-</td></tr>
+                                    <tr><td class="schedule-time">10:00-11:00</td><td class="slot-plenary merged-slot"><span class="program-slot"><a href="plenary.html">Round table: Artificial Intelligence for industry and research</a></span></td><td class="slot-empty">-</td></tr>
+                                    <tr class="schedule-break"><td class="schedule-time">11:00-11:30</td><td colspan="2">Coffee Break</td></tr>
+                                    <tr><td class="schedule-time">11:30-12:15</td><td class="slot-plenary merged-slot"><span class="program-slot"><a href="plenary.html">Round table: Quantum Computing and Artificial Intelligence</a></span></td><td class="slot-doctoral merged-slot" rowspan="2"><span class="program-slot"><a href="workshop/doctoral-consortium.html">NVIDIA workshop: Rapid Application Development with LLMs and a Medical Use-case</a></span><span class="program-slot-note">11:30-13:30</span></td></tr>
+                                    <tr><td class="schedule-time">12:15-13:30</td><td class="slot-plenary merged-slot"><span class="program-slot"><a href="plenary.html">Remarks from the workshops</a></span></td></tr>
+                                    <tr class="schedule-break"><td class="schedule-time">13:30-14:30</td><td colspan="2">Lunch</td></tr>
+                                    <tr><td class="schedule-time">14:30-16:50</td><td class="slot-empty">-</td><td class="slot-doctoral merged-slot"><span class="program-slot"><a href="workshop/doctoral-consortium.html">Doctoral Consortium - paper presentations</a></span></td></tr>
+                                    <tr><td class="schedule-time">16:50-17:00</td><td class="slot-empty">-</td><td class="slot-doctoral merged-slot"><span class="program-slot"><a href="workshop/doctoral-consortium.html">Certificates Distribution &amp; Closing</a></span></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
-                    <div class="program-day">
-                        <h3>Friday, 19 June 2026</h3>
-                        <p><strong>Morning:</strong> Plenary Session</p>
-                        <p><strong>Afternoon:</strong> Doctoral Consortium</p>
-                        <p>The plenary session will feature two round tables moderated by Alessio Jacona, followed by a workshops summary coordinated by Carlo Sansone and Paolo Soda. In the afternoon, the <a class="program-link" href="workshop/doctoral-consortium.html">Doctoral Consortium</a> will include presentations of doctoral work and a thematic lecture on rapid LLM application development for a medical use case.</p>
+                    <h3 class="section-title">Detailed workshop programmes</h3>
+                    <p>Go directly to the detailed programme for each workshop and the Doctoral Consortium.</p>
+                    <div class="workshop-link-grid">
+                        <a class="btn btn-default" href="workshop/ai-per-la-medicina-e-la-salute.html">AI for Medicine and Health</a>
+                        <a class="btn btn-default" href="workshop/generative-agentic-ai.html">Generative &amp; Agentic AI</a>
+                        <a class="btn btn-default" href="workshop/ai-per-la-sostenibilita.html">AI for Sustainability</a>
+                        <a class="btn btn-default" href="workshop/ai-per-la-cybersecurity.html">AI for Cybersecurity</a>
+                        <a class="btn btn-default" href="workshop/ai-responsabile-e-affidabile.html">Responsible and Trustworthy AI</a>
+                        <a class="btn btn-default" href="workshop/ai-per-la-pubblica-amministrazione.html">AI for Public Administration</a>
+                        <a class="btn btn-default" href="workshop/ai-per-l-industria.html">AI for Industry</a>
+                        <a class="btn btn-default" href="workshop/ai-e-disinformazione.html">AI and Disinformation</a>
+                        <a class="btn btn-default" href="workshop/ai-per-la-robotica.html">AI for Robotics</a>
+                        <a class="btn btn-default" href="workshop/doctoral-consortium.html">Doctoral Consortium</a>
                     </div>
 
                     <h3 class="section-title">Plenary Session</h3>
@@ -149,15 +194,15 @@
                     </div>
 
                     <div class="feature-card">
-                        <h4>Round table 1 - Quantum Computing and Artificial Intelligence: convergences, opportunities and challenges</h4>
-                        <p><strong>Participants:</strong> Alessandro Zavatta (President and COO of QTI Srl), Cosma Belli (Southern &amp; Western Europe Director | Country Manager, Italy | Quantum Computing for HPC &amp; AI | IQM Quantum Computers) and Beniamino Di Martino (University of Campania Luigi Vanvitelli).</p>
-                        <p>The discussion will explore the relationship between Artificial Intelligence and quantum technologies, analyzing the state of the art, application prospects and future scenarios. The focus will be on the opportunities that may emerge from the integration of AI and Quantum Computing, the main scientific and technological obstacles still open, and the role that research and industry can play in the development of this strategic sector.</p>
+                        <h4>Round table 1 - Artificial Intelligence for industry and research: building value for the country</h4>
+                        <p><strong>Participants:</strong> Domenico Convertino (Senior Vice President at HCLTech), Maurizio Stumbo (Head of the Infrastructure, Data Center and Cyber Security Division, Sogei), Andrea Orlandini (Institute of Cognitive Sciences and Technologies of the National Research Council of Italy, President of AIxIA) and Sebastiano Battiato (University of Catania, CVPL Delegate for IAPR).</p>
+                        <p>The round table will discuss how collaboration among public research, universities and companies can accelerate the adoption of Artificial Intelligence and generate economic and social impact. The debate will address the opportunities offered by AI for the competitiveness of the productive system, innovation in public administration, technology transfer and the development of strategic skills for the country's future.</p>
                     </div>
 
                     <div class="feature-card">
-                        <h4>Round table 2 - Artificial Intelligence for industry and research: building value for the country</h4>
-                        <p><strong>Participants:</strong> Domenico Convertino (Senior Vice President at HCLTech), Maurizio Stumbo (Head of the Infrastructure, Data Center and Cyber Security Division, Sogei), Andrea Orlandini (Institute of Cognitive Sciences and Technologies of the National Research Council of Italy, President of AIxIA) and Sebastiano Battiato (University of Catania, CVPL Delegate for IAPR).</p>
-                        <p>The round table will discuss how collaboration among public research, universities and companies can accelerate the adoption of Artificial Intelligence and generate economic and social impact. The debate will address the opportunities offered by AI for the competitiveness of the productive system, innovation in public administration, technology transfer and the development of strategic skills for the country's future.</p>
+                        <h4>Round table 2 - Quantum Computing and Artificial Intelligence: convergences, opportunities and challenges</h4>
+                        <p><strong>Participants:</strong> Alessandro Zavatta (President and COO of QTI Srl), Cosma Belli (Southern &amp; Western Europe Director | Country Manager, Italy | Quantum Computing for HPC &amp; AI | IQM Quantum Computers) and Beniamino Di Martino (University of Campania Luigi Vanvitelli).</p>
+                        <p>The discussion will explore the relationship between Artificial Intelligence and quantum technologies, analyzing the state of the art, application prospects and future scenarios. The focus will be on the opportunities that may emerge from the integration of AI and Quantum Computing, the main scientific and technological obstacles still open, and the role that research and industry can play in the development of this strategic sector.</p>
                     </div>
 
                     <div class="speaker-card">
@@ -257,8 +302,8 @@
                     </div>
 
                     <h3 class="section-title">Doctoral Consortium</h3>
-                    <p>The afternoon <a class="program-link" href="workshop/doctoral-consortium.html">Doctoral Consortium</a> will include presentations of doctoral research and an application-oriented lecture for the research community.</p>
-                    <p>The session will offer participants an opportunity for scientific exchange on emerging AI topics, supporting discussion around ongoing research projects and interaction among PhD students, faculty members, and invited speakers. More information is available on the <a class="program-link" href="workshop/doctoral-consortium.html">dedicated Doctoral Consortium page</a>.</p>
+                    <p>The <a class="program-link" href="workshop/doctoral-consortium.html">Doctoral Consortium</a> on Friday, 19 June 2026 includes the NVIDIA workshop from 11:30 to 13:30 and, in the afternoon, doctoral paper presentations through 16:50, followed by certificate distribution and closing.</p>
+                    <p>The session will offer participants an opportunity for scientific exchange on emerging AI topics, supporting discussion around ongoing research projects and interaction among PhD students, faculty members, and invited speakers. The detailed table with each contribution and time slot is available on the <a class="program-link" href="workshop/doctoral-consortium.html">dedicated Doctoral Consortium page</a>.</p>
 
                     <div class="feature-card">
                         <h4>NVIDIA workshop on Rapid Application Development with LLMs and a Medical Use-case</h4>

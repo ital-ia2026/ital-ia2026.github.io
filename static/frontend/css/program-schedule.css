@@ -1,0 +1,123 @@
+.program-overview {
+    margin: 20px 0 28px;
+}
+
+.program-overview h3,
+.workshop-program h4 {
+    margin-top: 28px;
+}
+
+.program-overview-table,
+.workshop-schedule-table {
+    background: #fff;
+}
+
+.program-overview-table th,
+.workshop-schedule-table th {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.program-overview-table td,
+.workshop-schedule-table td {
+    vertical-align: top !important;
+}
+
+.program-overview-table td.merged-slot {
+    vertical-align: middle !important;
+}
+
+.schedule-time {
+    width: 125px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.schedule-room {
+    width: 95px;
+    white-space: nowrap;
+}
+
+.program-slot {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.program-slot-note {
+    display: block;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+.slot-registration { background: #f7f7f7; }
+.slot-medicine { background: #e8f4ff; border-left: 4px solid #2f80c0 !important; }
+.slot-generative { background: #fff1dd; border-left: 4px solid #d88921 !important; }
+.slot-sustainability { background: #e8f7ee; border-left: 4px solid #2e9d59 !important; }
+.slot-cybersecurity { background: #f0ebff; border-left: 4px solid #7d55c7 !important; }
+.slot-responsible { background: #fff0f3; border-left: 4px solid #c84d6b !important; }
+.slot-public-admin { background: #edf3ff; border-left: 4px solid #4d72bd !important; }
+.slot-industry { background: #eef5f2; border-left: 4px solid #438b79 !important; }
+.slot-disinformation { background: #fff5e6; border-left: 4px solid #d1721d !important; }
+.slot-robotics { background: #eaf8f8; border-left: 4px solid #2598a4 !important; }
+.slot-plenary { background: #f3eef8; border-left: 4px solid #8056a5 !important; }
+.slot-doctoral { background: #f1f6e8; border-left: 4px solid #78943c !important; }
+.slot-social { background: #f4f4f4; border-left: 4px solid #777 !important; }
+.slot-empty {
+    background: #fff;
+    color: #aaa;
+    text-align: center;
+}
+
+.program-overview-table td[class*="slot-"] .program-slot,
+.program-overview-table td[class*="slot-"] .program-slot a {
+    color: #222;
+}
+
+.workshop-link-grid {
+    margin: 16px 0 34px;
+}
+
+.workshop-link-grid .btn {
+    margin: 0 8px 10px 0;
+    white-space: normal;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.workshop-program {
+    margin-top: 24px;
+}
+
+.workshop-program-note {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.paper-title {
+    display: block;
+    font-weight: 600;
+}
+
+.paper-authors {
+    display: block;
+    margin-top: 4px;
+    color: #555;
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+.schedule-break td {
+    background: #fafafa;
+    color: #555;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .schedule-time,
+    .schedule-room {
+        white-space: normal;
+    }
+}
